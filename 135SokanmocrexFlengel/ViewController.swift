@@ -2,8 +2,7 @@
 //  ViewController.swift
 //  135SokanmocrexFlengel
 //
-//  Created by Roman on 4/13/26.
-//
+
 
 import UIKit
 

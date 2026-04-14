@@ -1,0 +1,6 @@
+framework module Pods_135SokanmocrexFlengel {
+  umbrella header "Pods-135SokanmocrexFlengel-umbrella.h"
+
+  export *
+  module * { export * }
+}

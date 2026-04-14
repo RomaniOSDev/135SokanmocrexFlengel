@@ -3,33 +3,105 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		30CB3CC32F8E162000699281 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C812F8E162000699281 /* AppExternalLink.swift */; };
+		30CB3CC42F8E162000699281 /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C822F8E162000699281 /* AppNotifications.swift */; };
+		30CB3CC52F8E162000699281 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C832F8E162000699281 /* AppStorage.swift */; };
+		30CB3CC62F8E162000699281 /* CulturalQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C852F8E162000699281 /* CulturalQuestionData.swift */; };
+		30CB3CC72F8E162000699281 /* HistoricalQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C862F8E162000699281 /* HistoricalQuestionData.swift */; };
+		30CB3CC82F8E162000699281 /* LandmarkQuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C872F8E162000699281 /* LandmarkQuestionData.swift */; };
+		30CB3CC92F8E162000699281 /* AppVisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C892F8E162000699281 /* AppVisualStyle.swift */; };
+		30CB3CCA2F8E162000699281 /* StarShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C8A2F8E162000699281 /* StarShapeView.swift */; };
+		30CB3CCB2F8E162000699281 /* TabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C8B2F8E162000699281 /* TabBarAppearance.swift */; };
+		30CB3CCC2F8E162000699281 /* TriviaButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C8C2F8E162000699281 /* TriviaButtonStyle.swift */; };
+		30CB3CCD2F8E162000699281 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C8E2F8E162000699281 /* Color+App.swift */; };
+		30CB3CCE2F8E162000699281 /* CulturalConundrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C902F8E162000699281 /* CulturalConundrumsView.swift */; };
+		30CB3CCF2F8E162000699281 /* CulturalConundrumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C912F8E162000699281 /* CulturalConundrumsViewModel.swift */; };
+		30CB3CD02F8E162000699281 /* HistoricalHurdlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C932F8E162000699281 /* HistoricalHurdlesView.swift */; };
+		30CB3CD12F8E162000699281 /* HistoricalHurdlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C942F8E162000699281 /* HistoricalHurdlesViewModel.swift */; };
+		30CB3CD22F8E162000699281 /* LandmarkTriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C962F8E162000699281 /* LandmarkTriviaView.swift */; };
+		30CB3CD32F8E162000699281 /* LandmarkTriviaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C972F8E162000699281 /* LandmarkTriviaViewModel.swift */; };
+		30CB3CD42F8E162000699281 /* ChallengePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C9A2F8E162000699281 /* ChallengePath.swift */; };
+		30CB3CD52F8E162000699281 /* ChallengeRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C9B2F8E162000699281 /* ChallengeRootView.swift */; };
+		30CB3CD62F8E162000699281 /* MixedChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C9C2F8E162000699281 /* MixedChallengeView.swift */; };
+		30CB3CD72F8E162000699281 /* MixedChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C9D2F8E162000699281 /* MixedChallengeViewModel.swift */; };
+		30CB3CD82F8E162000699281 /* ActivityPlayCoordinators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C9F2F8E162000699281 /* ActivityPlayCoordinators.swift */; };
+		30CB3CD92F8E162000699281 /* ExplorePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CA02F8E162000699281 /* ExplorePath.swift */; };
+		30CB3CDA2F8E162000699281 /* ExploreRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CA12F8E162000699281 /* ExploreRootView.swift */; };
+		30CB3CDB2F8E162000699281 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CA22F8E162000699281 /* HomeView.swift */; };
+		30CB3CDC2F8E162000699281 /* LevelGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CA32F8E162000699281 /* LevelGridView.swift */; };
+		30CB3CDD2F8E162000699281 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CA52F8E162000699281 /* MainTabView.swift */; };
+		30CB3CDE2F8E162000699281 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CA72F8E162000699281 /* OnboardingView.swift */; };
+		30CB3CDF2F8E162000699281 /* ProgressRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CA92F8E162000699281 /* ProgressRootView.swift */; };
+		30CB3CE02F8E162000699281 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CAA2F8E162000699281 /* SettingsView.swift */; };
+		30CB3CE12F8E162000699281 /* SessionResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CAC2F8E162000699281 /* SessionResultView.swift */; };
+		30CB3CE22F8E162000699281 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CAE2F8E162000699281 /* RewardsView.swift */; };
+		30CB3CE32F8E162000699281 /* ActivityShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CB02F8E162000699281 /* ActivityShareSheet.swift */; };
+		30CB3CE42F8E162000699281 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CB32F8E162000699281 /* GameModels.swift */; };
+		30CB3CE52F8E162000699281 /* RewardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CB42F8E162000699281 /* RewardModels.swift */; };
+		30CB3CE62F8E162000699281 /* ScoreRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CB62F8E162000699281 /* ScoreRules.swift */; };
+		30CB3CE72F8E162000699281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CB82F8E162000699281 /* AppDelegate.swift */; };
+		30CB3CE82F8E162000699281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CBA2F8E162000699281 /* ContentView.swift */; };
+		30CB3CE92F8E162000699281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CC02F8E162000699281 /* SceneDelegate.swift */; };
+		30CB3CEA2F8E162000699281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3CC12F8E162000699281 /* ViewController.swift */; };
+		30CB3CEB2F8E162000699281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CB3CB92F8E162000699281 /* Assets.xcassets */; };
+		30CB3CED2F8E162000699281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CB3CBD2F8E162000699281 /* LaunchScreen.storyboard */; };
+		30CB3CEE2F8E162000699281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CB3CBF2F8E162000699281 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30CB39A22F8D71F300699281 /* 135SokanmocrexFlengel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 135SokanmocrexFlengel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CB3C812F8E162000699281 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		30CB3C822F8E162000699281 /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
+		30CB3C832F8E162000699281 /* AppStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage.swift; sourceTree = "<group>"; };
+		30CB3C852F8E162000699281 /* CulturalQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalQuestionData.swift; sourceTree = "<group>"; };
+		30CB3C862F8E162000699281 /* HistoricalQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalQuestionData.swift; sourceTree = "<group>"; };
+		30CB3C872F8E162000699281 /* LandmarkQuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkQuestionData.swift; sourceTree = "<group>"; };
+		30CB3C892F8E162000699281 /* AppVisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVisualStyle.swift; sourceTree = "<group>"; };
+		30CB3C8A2F8E162000699281 /* StarShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShapeView.swift; sourceTree = "<group>"; };
+		30CB3C8B2F8E162000699281 /* TabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearance.swift; sourceTree = "<group>"; };
+		30CB3C8C2F8E162000699281 /* TriviaButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaButtonStyle.swift; sourceTree = "<group>"; };
+		30CB3C8E2F8E162000699281 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
+		30CB3C902F8E162000699281 /* CulturalConundrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalConundrumsView.swift; sourceTree = "<group>"; };
+		30CB3C912F8E162000699281 /* CulturalConundrumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CulturalConundrumsViewModel.swift; sourceTree = "<group>"; };
+		30CB3C932F8E162000699281 /* HistoricalHurdlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalHurdlesView.swift; sourceTree = "<group>"; };
+		30CB3C942F8E162000699281 /* HistoricalHurdlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalHurdlesViewModel.swift; sourceTree = "<group>"; };
+		30CB3C962F8E162000699281 /* LandmarkTriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkTriviaView.swift; sourceTree = "<group>"; };
+		30CB3C972F8E162000699281 /* LandmarkTriviaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkTriviaViewModel.swift; sourceTree = "<group>"; };
+		30CB3C9A2F8E162000699281 /* ChallengePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengePath.swift; sourceTree = "<group>"; };
+		30CB3C9B2F8E162000699281 /* ChallengeRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeRootView.swift; sourceTree = "<group>"; };
+		30CB3C9C2F8E162000699281 /* MixedChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedChallengeView.swift; sourceTree = "<group>"; };
+		30CB3C9D2F8E162000699281 /* MixedChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedChallengeViewModel.swift; sourceTree = "<group>"; };
+		30CB3C9F2F8E162000699281 /* ActivityPlayCoordinators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPlayCoordinators.swift; sourceTree = "<group>"; };
+		30CB3CA02F8E162000699281 /* ExplorePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorePath.swift; sourceTree = "<group>"; };
+		30CB3CA12F8E162000699281 /* ExploreRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRootView.swift; sourceTree = "<group>"; };
+		30CB3CA22F8E162000699281 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		30CB3CA32F8E162000699281 /* LevelGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelGridView.swift; sourceTree = "<group>"; };
+		30CB3CA52F8E162000699281 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		30CB3CA72F8E162000699281 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		30CB3CA92F8E162000699281 /* ProgressRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRootView.swift; sourceTree = "<group>"; };
+		30CB3CAA2F8E162000699281 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		30CB3CAC2F8E162000699281 /* SessionResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResultView.swift; sourceTree = "<group>"; };
+		30CB3CAE2F8E162000699281 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		30CB3CB02F8E162000699281 /* ActivityShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityShareSheet.swift; sourceTree = "<group>"; };
+		30CB3CB32F8E162000699281 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		30CB3CB42F8E162000699281 /* RewardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardModels.swift; sourceTree = "<group>"; };
+		30CB3CB62F8E162000699281 /* ScoreRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRules.swift; sourceTree = "<group>"; };
+		30CB3CB82F8E162000699281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30CB3CB92F8E162000699281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CB3CBA2F8E162000699281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30CB3CBB2F8E162000699281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CB3CBC2F8E162000699281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CB3CBE2F8E162000699281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CB3CC02F8E162000699281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		30CB3CC12F8E162000699281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C1F35B59ADB189688524D76 /* Pods_135SokanmocrexFlengel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_135SokanmocrexFlengel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6401C93B0D55465B48417467 /* Pods-135SokanmocrexFlengel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-135SokanmocrexFlengel.debug.xcconfig"; path = "Target Support Files/Pods-135SokanmocrexFlengel/Pods-135SokanmocrexFlengel.debug.xcconfig"; sourceTree = "<group>"; };
+		B43AA8E246FE3DFE77208FD6 /* Pods-135SokanmocrexFlengel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-135SokanmocrexFlengel.release.xcconfig"; path = "Target Support Files/Pods-135SokanmocrexFlengel/Pods-135SokanmocrexFlengel.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		30CB39B42F8D71F500699281 /* Exceptions for "135SokanmocrexFlengel" folder in "135SokanmocrexFlengel" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 30CB39A12F8D71F300699281 /* 135SokanmocrexFlengel */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		30CB39A42F8D71F300699281 /* 135SokanmocrexFlengel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				30CB39B42F8D71F500699281 /* Exceptions for "135SokanmocrexFlengel" folder in "135SokanmocrexFlengel" target */,
-			);
-			path = 135SokanmocrexFlengel;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30CB399F2F8D71F300699281 /* Frameworks */ = {
@@ -42,11 +114,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE2FBDFA9F6F8B5370B7E6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6401C93B0D55465B48417467 /* Pods-135SokanmocrexFlengel.debug.xcconfig */,
+				B43AA8E246FE3DFE77208FD6 /* Pods-135SokanmocrexFlengel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		30CB39992F8D71F300699281 = {
 			isa = PBXGroup;
 			children = (
-				30CB39A42F8D71F300699281 /* 135SokanmocrexFlengel */,
+				30CB3CC22F8E162000699281 /* 135SokanmocrexFlengel */,
 				30CB39A32F8D71F300699281 /* Products */,
+				0AE2FBDFA9F6F8B5370B7E6B /* Pods */,
+				459F64E86294CA42DD86DFA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +141,217 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		30CB3C842F8E162000699281 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C812F8E162000699281 /* AppExternalLink.swift */,
+				30CB3C822F8E162000699281 /* AppNotifications.swift */,
+				30CB3C832F8E162000699281 /* AppStorage.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		30CB3C882F8E162000699281 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C852F8E162000699281 /* CulturalQuestionData.swift */,
+				30CB3C862F8E162000699281 /* HistoricalQuestionData.swift */,
+				30CB3C872F8E162000699281 /* LandmarkQuestionData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		30CB3C8D2F8E162000699281 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C892F8E162000699281 /* AppVisualStyle.swift */,
+				30CB3C8A2F8E162000699281 /* StarShapeView.swift */,
+				30CB3C8B2F8E162000699281 /* TabBarAppearance.swift */,
+				30CB3C8C2F8E162000699281 /* TriviaButtonStyle.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		30CB3C8F2F8E162000699281 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C8E2F8E162000699281 /* Color+App.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		30CB3C922F8E162000699281 /* Cultural */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C902F8E162000699281 /* CulturalConundrumsView.swift */,
+				30CB3C912F8E162000699281 /* CulturalConundrumsViewModel.swift */,
+			);
+			path = Cultural;
+			sourceTree = "<group>";
+		};
+		30CB3C952F8E162000699281 /* Historical */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C932F8E162000699281 /* HistoricalHurdlesView.swift */,
+				30CB3C942F8E162000699281 /* HistoricalHurdlesViewModel.swift */,
+			);
+			path = Historical;
+			sourceTree = "<group>";
+		};
+		30CB3C982F8E162000699281 /* Landmark */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C962F8E162000699281 /* LandmarkTriviaView.swift */,
+				30CB3C972F8E162000699281 /* LandmarkTriviaViewModel.swift */,
+			);
+			path = Landmark;
+			sourceTree = "<group>";
+		};
+		30CB3C992F8E162000699281 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C922F8E162000699281 /* Cultural */,
+				30CB3C952F8E162000699281 /* Historical */,
+				30CB3C982F8E162000699281 /* Landmark */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		30CB3C9E2F8E162000699281 /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C9A2F8E162000699281 /* ChallengePath.swift */,
+				30CB3C9B2F8E162000699281 /* ChallengeRootView.swift */,
+				30CB3C9C2F8E162000699281 /* MixedChallengeView.swift */,
+				30CB3C9D2F8E162000699281 /* MixedChallengeViewModel.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+		30CB3CA42F8E162000699281 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C9F2F8E162000699281 /* ActivityPlayCoordinators.swift */,
+				30CB3CA02F8E162000699281 /* ExplorePath.swift */,
+				30CB3CA12F8E162000699281 /* ExploreRootView.swift */,
+				30CB3CA22F8E162000699281 /* HomeView.swift */,
+				30CB3CA32F8E162000699281 /* LevelGridView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		30CB3CA62F8E162000699281 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CA52F8E162000699281 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		30CB3CA82F8E162000699281 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CA72F8E162000699281 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		30CB3CAB2F8E162000699281 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CA92F8E162000699281 /* ProgressRootView.swift */,
+				30CB3CAA2F8E162000699281 /* SettingsView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		30CB3CAD2F8E162000699281 /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CAC2F8E162000699281 /* SessionResultView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		30CB3CAF2F8E162000699281 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CAE2F8E162000699281 /* RewardsView.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		30CB3CB12F8E162000699281 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CB02F8E162000699281 /* ActivityShareSheet.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		30CB3CB22F8E162000699281 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C992F8E162000699281 /* Activities */,
+				30CB3C9E2F8E162000699281 /* Challenge */,
+				30CB3CA42F8E162000699281 /* Explore */,
+				30CB3CA62F8E162000699281 /* Main */,
+				30CB3CA82F8E162000699281 /* Onboarding */,
+				30CB3CAB2F8E162000699281 /* Progress */,
+				30CB3CAD2F8E162000699281 /* Results */,
+				30CB3CAF2F8E162000699281 /* Rewards */,
+				30CB3CB12F8E162000699281 /* Shared */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		30CB3CB52F8E162000699281 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CB32F8E162000699281 /* GameModels.swift */,
+				30CB3CB42F8E162000699281 /* RewardModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30CB3CB72F8E162000699281 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3CB62F8E162000699281 /* ScoreRules.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		30CB3CC22F8E162000699281 /* 135SokanmocrexFlengel */ = {
+			isa = PBXGroup;
+			children = (
+				30CB3C842F8E162000699281 /* Core */,
+				30CB3C882F8E162000699281 /* Data */,
+				30CB3C8D2F8E162000699281 /* Design */,
+				30CB3C8F2F8E162000699281 /* Extensions */,
+				30CB3CB22F8E162000699281 /* Features */,
+				30CB3CB52F8E162000699281 /* Models */,
+				30CB3CB72F8E162000699281 /* Utilities */,
+				30CB3CB82F8E162000699281 /* AppDelegate.swift */,
+				30CB3CB92F8E162000699281 /* Assets.xcassets */,
+				30CB3CBA2F8E162000699281 /* ContentView.swift */,
+				30CB3CBB2F8E162000699281 /* Info.plist */,
+				30CB3CBD2F8E162000699281 /* LaunchScreen.storyboard */,
+				30CB3CBF2F8E162000699281 /* Main.storyboard */,
+				30CB3CC02F8E162000699281 /* SceneDelegate.swift */,
+				30CB3CC12F8E162000699281 /* ViewController.swift */,
+			);
+			path = 135SokanmocrexFlengel;
+			sourceTree = "<group>";
+		};
+		459F64E86294CA42DD86DFA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C1F35B59ADB189688524D76 /* Pods_135SokanmocrexFlengel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +359,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30CB39B52F8D71F500699281 /* Build configuration list for PBXNativeTarget "135SokanmocrexFlengel" */;
 			buildPhases = (
+				418DAA40DE245B0490B27A5B /* [CP] Check Pods Manifest.lock */,
 				30CB399E2F8D71F300699281 /* Sources */,
 				30CB399F2F8D71F300699281 /* Frameworks */,
 				30CB39A02F8D71F300699281 /* Resources */,
@@ -73,12 +368,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				30CB39A42F8D71F300699281 /* 135SokanmocrexFlengel */,
-			);
 			name = 135SokanmocrexFlengel;
-			packageProductDependencies = (
-			);
 			productName = 135SokanmocrexFlengel;
 			productReference = 30CB39A22F8D71F300699281 /* 135SokanmocrexFlengel.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +389,7 @@
 				};
 			};
 			buildConfigurationList = 30CB399D2F8D71F300699281 /* Build configuration list for PBXProject "135SokanmocrexFlengel" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +397,6 @@
 				Base,
 			);
 			mainGroup = 30CB39992F8D71F300699281;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 30CB39A32F8D71F300699281 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +411,112 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CB3CEB2F8E162000699281 /* Assets.xcassets in Resources */,
+				30CB3CED2F8E162000699281 /* LaunchScreen.storyboard in Resources */,
+				30CB3CEE2F8E162000699281 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		418DAA40DE245B0490B27A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-135SokanmocrexFlengel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30CB399E2F8D71F300699281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CB3CC32F8E162000699281 /* AppExternalLink.swift in Sources */,
+				30CB3CC42F8E162000699281 /* AppNotifications.swift in Sources */,
+				30CB3CC52F8E162000699281 /* AppStorage.swift in Sources */,
+				30CB3CC62F8E162000699281 /* CulturalQuestionData.swift in Sources */,
+				30CB3CC72F8E162000699281 /* HistoricalQuestionData.swift in Sources */,
+				30CB3CC82F8E162000699281 /* LandmarkQuestionData.swift in Sources */,
+				30CB3CC92F8E162000699281 /* AppVisualStyle.swift in Sources */,
+				30CB3CCA2F8E162000699281 /* StarShapeView.swift in Sources */,
+				30CB3CCB2F8E162000699281 /* TabBarAppearance.swift in Sources */,
+				30CB3CCC2F8E162000699281 /* TriviaButtonStyle.swift in Sources */,
+				30CB3CCD2F8E162000699281 /* Color+App.swift in Sources */,
+				30CB3CCE2F8E162000699281 /* CulturalConundrumsView.swift in Sources */,
+				30CB3CCF2F8E162000699281 /* CulturalConundrumsViewModel.swift in Sources */,
+				30CB3CD02F8E162000699281 /* HistoricalHurdlesView.swift in Sources */,
+				30CB3CD12F8E162000699281 /* HistoricalHurdlesViewModel.swift in Sources */,
+				30CB3CD22F8E162000699281 /* LandmarkTriviaView.swift in Sources */,
+				30CB3CD32F8E162000699281 /* LandmarkTriviaViewModel.swift in Sources */,
+				30CB3CD42F8E162000699281 /* ChallengePath.swift in Sources */,
+				30CB3CD52F8E162000699281 /* ChallengeRootView.swift in Sources */,
+				30CB3CD62F8E162000699281 /* MixedChallengeView.swift in Sources */,
+				30CB3CD72F8E162000699281 /* MixedChallengeViewModel.swift in Sources */,
+				30CB3CD82F8E162000699281 /* ActivityPlayCoordinators.swift in Sources */,
+				30CB3CD92F8E162000699281 /* ExplorePath.swift in Sources */,
+				30CB3CDA2F8E162000699281 /* ExploreRootView.swift in Sources */,
+				30CB3CDB2F8E162000699281 /* HomeView.swift in Sources */,
+				30CB3CDC2F8E162000699281 /* LevelGridView.swift in Sources */,
+				30CB3CDD2F8E162000699281 /* MainTabView.swift in Sources */,
+				30CB3CDE2F8E162000699281 /* OnboardingView.swift in Sources */,
+				30CB3CDF2F8E162000699281 /* ProgressRootView.swift in Sources */,
+				30CB3CE02F8E162000699281 /* SettingsView.swift in Sources */,
+				30CB3CE12F8E162000699281 /* SessionResultView.swift in Sources */,
+				30CB3CE22F8E162000699281 /* RewardsView.swift in Sources */,
+				30CB3CE32F8E162000699281 /* ActivityShareSheet.swift in Sources */,
+				30CB3CE42F8E162000699281 /* GameModels.swift in Sources */,
+				30CB3CE52F8E162000699281 /* RewardModels.swift in Sources */,
+				30CB3CE62F8E162000699281 /* ScoreRules.swift in Sources */,
+				30CB3CE72F8E162000699281 /* AppDelegate.swift in Sources */,
+				30CB3CE82F8E162000699281 /* ContentView.swift in Sources */,
+				30CB3CE92F8E162000699281 /* SceneDelegate.swift in Sources */,
+				30CB3CEA2F8E162000699281 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		30CB3CBD2F8E162000699281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CB3CBC2F8E162000699281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30CB3CBF2F8E162000699281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CB3CBE2F8E162000699281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		30CB39B62F8D71F500699281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6401C93B0D55465B48417467 /* Pods-135SokanmocrexFlengel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +524,38 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 135SokanmocrexFlengel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sokanmocrex Flengel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-35SokanmocrexFlengel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.col.s0k4nm6cr3xfl8n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		30CB39B72F8D71F500699281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43AA8E246FE3DFE77208FD6 /* Pods-135SokanmocrexFlengel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +563,32 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 135SokanmocrexFlengel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sokanmocrex Flengel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-35SokanmocrexFlengel";
+				PRODUCT_BUNDLE_IDENTIFIER = com.col.s0k4nm6cr3xfl8n;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -204,7 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -267,7 +659,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
