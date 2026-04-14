@@ -6,8 +6,8 @@
 import UIKit
 
 enum AppExternalLink: String {
-    case privacyPolicy = "https://example.com/privacy-policy"
-    case termsOfUse = "https://example.com/terms"
+    case privacyPolicy = "https://sokanmocrexflengel135.site/privacy/101"
+    case termsOfUse = "https://sokanmocrexflengel135.site/terms/101"
 
     func open() {
         if let url = URL(string: rawValue) {
