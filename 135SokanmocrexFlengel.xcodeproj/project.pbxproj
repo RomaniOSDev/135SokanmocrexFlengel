@@ -25,7 +25,7 @@
 		30048A122F975F7F00B3ED85 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 30048A112F975F7F00B3ED85 /* FirebaseMessaging */; };
 		30048A142F975F8800B3ED85 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 30048A132F975F8800B3ED85 /* FirebaseMessaging */; };
 		30048A1A2F975FC400B3ED85 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30048A172F975FC400B3ED85 /* NotificationService.swift */; };
-		30048A1C2F9761E500B3ED85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30048A1B2F9761E500B3ED85 /* GoogleService-Info.plist */; };
+		30BA3EAB2FCF635F0011B428 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30BA3EAA2FCF635F0011B428 /* GoogleService-Info.plist */; };
 		30CB3CC32F8E162000699281 /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C812F8E162000699281 /* AppExternalLink.swift */; };
 		30CB3CC42F8E162000699281 /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C822F8E162000699281 /* AppNotifications.swift */; };
 		30CB3CC52F8E162000699281 /* AppStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CB3C832F8E162000699281 /* AppStorage.swift */; };
@@ -113,7 +113,7 @@
 		30048A152F975F9000B3ED85 /* 135SokanmocrexFlengel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 135SokanmocrexFlengel.entitlements; sourceTree = "<group>"; };
 		30048A162F975FC400B3ED85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30048A172F975FC400B3ED85 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		30048A1B2F9761E500B3ED85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30BA3EAA2FCF635F0011B428 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		30CB39A22F8D71F300699281 /* 135SokanmocrexFlengel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 135SokanmocrexFlengel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CB3C812F8E162000699281 /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
 		30CB3C822F8E162000699281 /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
@@ -444,7 +444,7 @@
 				30CB3CC02F8E162000699281 /* SceneDelegate.swift */,
 				30CB3CC12F8E162000699281 /* ViewController.swift */,
 				300489EE2F975ECA00B3ED85 /* Loading */,
-				30048A1B2F9761E500B3ED85 /* GoogleService-Info.plist */,
+				30BA3EAA2FCF635F0011B428 /* GoogleService-Info.plist */,
 			);
 			path = 135SokanmocrexFlengel;
 			sourceTree = "<group>";
@@ -554,7 +554,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30CB3CEB2F8E162000699281 /* Assets.xcassets in Resources */,
-				30048A1C2F9761E500B3ED85 /* GoogleService-Info.plist in Resources */,
+				30BA3EAB2FCF635F0011B428 /* GoogleService-Info.plist in Resources */,
 				30CB3CED2F8E162000699281 /* LaunchScreen.storyboard in Resources */,
 				30CB3CEE2F8E162000699281 /* Main.storyboard in Resources */,
 			);
@@ -691,7 +691,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
@@ -724,7 +724,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
@@ -760,7 +760,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 135SokanmocrexFlengel/135SokanmocrexFlengel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 135SokanmocrexFlengel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sokanmocrex Flengel";
@@ -803,7 +803,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = 135SokanmocrexFlengel/135SokanmocrexFlengel.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 135SokanmocrexFlengel/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Sokanmocrex Flengel";
